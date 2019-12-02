@@ -9,6 +9,6 @@ home: https://plex.tv/
 icon: https://www.plex.tv/wp-content/uploads/2018/01/pmp-icon-1.png
 sources:
   - https://hub.docker.com/r/mauroniewolskicesca/kube-plex-arm64
-  - https://hub.docker.com/r/mauroniewolskicesca/pms-docker-arm64/
+  - https://hub.docker.com/r/mauroniewolskicesca/pms-docker-arm64
 maintainers:
   - name: mauroniewolskicesca

@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 image:
   repository: mauroniewolskicesca/pms-docker-arm64
-  tag: 1.10.1.4602-f54242b6b
+  tag: latest
   pullPolicy: IfNotPresent
 
 kubePlex:
@@ -11,7 +11,7 @@ kubePlex:
   image:
     repository: mauroniewolskicesca/kube-plex-arm64
     tag: latest
-    pullPolicy: Always
+    pullPolicy: IfNotPresent
 
 # Override this with the plex claim token from plex.tv/claim
 claimToken: ""
